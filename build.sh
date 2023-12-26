@@ -2,10 +2,10 @@
 
 set -e -u
 
-iso_name=lhos
-iso_label="LHOS_$(date +%Y%m)"
-iso_version=$(date +%Y.%m.%d)
-install_dir=arch
+iso_name=aurumOS
+iso_label="aurumOS_$(date +%m.%Y)"
+iso_version=$(date +%m.%Y)
+install_dir=system
 work_dir=work
 out_dir=out
 gpg_key=
